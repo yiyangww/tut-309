@@ -12,10 +12,9 @@ export default function BasicHooksPage() {
       <Counter />
       <NewCounter />
       <Timer />
-      <br />
-      <br />
       <button onClick={() => router.push("/")}>Return to Home</button>
       {/* <br /><a href="/">Return to Home</a> */}
+      <br />
     </div>
   );
 }
